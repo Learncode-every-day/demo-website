@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="sourceInput" placeholder="Nhập dữ liệu vào đây">
+    <button onclick="transferData()">Chuyển Dữ Liệu</button>
+    <div id="targetDiv">
+        <input type="text" id="targetInput" placeholder="Dữ liệu sẽ được chuyển vào đây">
+    </div>
+    <script>
+        /*
+        function transferData() {
+            // Lấy giá trị từ thẻ input
+            var inputData = document.getElementById("myInput").value;
+        
+            // Chọn thẻ div mục tiêu
+            var targetDiv = document.getElementById("targetDiv");
+        
+            
+            // Chuyển dữ liệu vào thẻ div
+            targetDiv.innerText = inputData;
+        }
+        */
+
+        function transferData() {
+            // Lấy giá trị từ thẻ input nguồn
+            var sourceData = document.getElementById("sourceInput").value;
+        
+            // Chọn thẻ input mục tiêu bên trong thẻ div
+            var targetInput = document.getElementById("targetInput");
+        
+            // Chuyển dữ liệu vào thẻ input mục tiêu
+            targetInput.value = sourceData;
+        }
+        
+    </script>
+</body>
+
+</html>

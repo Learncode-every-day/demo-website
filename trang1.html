@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang 1</title>
+</head>
+<body>
+    <input type="text" id="inputData" placeholder="Nhập dữ liệu">
+    <button onclick="saveData()">Lưu Dữ Liệu</button>
+
+    <script>
+        function saveData() {
+            const inputData = document.getElementById("inputData").value;
+            localStorage.setItem("myData", inputData);
+            window.location.href = "trang2.html"; // Chuyển hướng người dùng đến trang 2
+        }
+    </script>
+</body>
+</html>

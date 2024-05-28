@@ -1,0 +1,44 @@
+.info-text {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(82, 180, 183);
+}
+
+.auth-form-top {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.auth-form__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.auth-form__form-left {
+    flex: 1;
+}
+
+.auth-form__form-left i {
+    padding-right: 2px;
+}
+
+.text-header {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(82, 180, 183);
+}
+
+.auth-form__form-left i {
+    margin-left: 2px;
+}
+
+.auth-form__form-left a {
+    text-decoration: none;
+}

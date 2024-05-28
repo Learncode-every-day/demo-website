@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang 2</title>
+</head>
+<body>
+    <input type="text" id="outputData" placeholder="Dữ liệu sẽ được hiển thị ở đây">
+
+    <script>
+        window.onload = function() {
+            const storedData = localStorage.getItem("myData");
+            document.getElementById("outputData").value = storedData;
+        }
+    </script>
+</body>
+</html>
