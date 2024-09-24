@@ -1,0 +1,9 @@
+figure {
+    width: 100px;
+    margin: auto;
+}
+
+figcaption {
+    width: 100px;
+    text-align: center;
+}
